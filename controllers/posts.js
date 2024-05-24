@@ -11,7 +11,7 @@ module.exports = {
                         <div>
                             <h1>${title}</h1>
                             <p>${body}</p>
-                            <img width="50" src="/${image}"/>
+                            <img width="100" src="/${image}"/>
                             <ul>
                     `;
                     tags.forEach(tag => html += `<li>${tag}</li>`);

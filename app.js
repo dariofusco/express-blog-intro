@@ -4,6 +4,7 @@ const port = 3000
 
 const posts = require("./controllers/posts.js");
 
+app.use(express.static('public'));
 app.use(express.json());
 
 app.get('/', (req, res) => {
